@@ -1,0 +1,5 @@
+1	Christian Kimball	3	Security & Cyber Defense	CS245
+2	Nick Hagan	4	Computer Science	CS422
+3	Matt Tarr	3	Business Management	MG444
+4	Dakota Mayo	2	Computer Science	CS346
+5	Reid Wallingford	2	Criminal Justice	CJ390
