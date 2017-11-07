@@ -1,0 +1,9 @@
+1	Christian Kimball	3	CS245
+2	Nick Hagan	4	CS422
+3	Matt Tarr	3	MG444
+4	Dakota Mayo	2	CS346
+5	Reid Wallingford	2	CJ390
+6	Devon Roux	3	MG432
+7	James St.Germain	4	CS424
+8	Noah Mann	3	CS420
+9	Jonathan Grady	1	CS115

@@ -11,21 +11,24 @@ public:
 	//Default Constructor
 	Student();
 	//Initializer Constructor
-	Student(const string &, int, const string &, const string &);
+	Student(int, const string &, int, const string &, const string &);
 	~Student();
 	//Getters
 	string getName() { return name; }
 	int getYear() { return year; }
 	string getMajor() { return major; }
 	string getCourse() { return course; }
+	int getId() { return id; }
 	//Setters
 	void setName(const string &);
 	void setYear(int);
 	void setMajor(const string &);
 	void setCourse(const string &);
+	void setId(int);
 	//return formatted string
 	string display();
 private:
+	int id;
 	string name;
 	int year;
 	string major;
