@@ -60,18 +60,22 @@ int main()
 	//reference refer to the origin object.
 	//*/
 
+	//DataManager that opens the data.txt file
 	DataManager dm("data.txt");
 
+	//create 4 new Students
 	Student stu1(6, "Devon Roux", 3, "Small Business Management", "MG432");
 	Student stu2(7, "James St.Germain", 4, "Security & Cyber Defense", "CS424");
 	Student stu3(8, "Noah Mann", 3, "Computer Science", "CS420");
 	Student stu4(9, "Jonathan Grady", 1, "Computre Science", "CS115");
 
+	//try to add them to the DataManager
 	dm.addStudent(stu1);
 	dm.addStudent(stu2);
 	dm.addStudent(stu3);
 	dm.addStudent(stu4);
 
+	//display the data
 	dm.display();
 
     return 0;
